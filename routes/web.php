@@ -52,9 +52,12 @@ Route::get('/Level', function () {
     return view('pages.admins.Level');
 });
 
-
 Route::get('/users-dashboard', function () {
     return view('pages.users.users-dashboard');
+});
+
+Route::get('/users-dashboard-info', function () {
+    return view('pages.users.users-dashboard-info');
 });
 
 
