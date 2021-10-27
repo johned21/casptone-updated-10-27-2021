@@ -1,0 +1,52 @@
+#usersdashboard {
+    margin-top: 6rem;
+    position: relative;
+}
+
+#dashboard-card-header {
+    width: auto;
+    height: 55px;
+}
+
+#dashboard-card-header h1 {
+    object-fit: cover;
+    font-size: 21px;
+    align-items: center;
+}
+
+#dashboard-card-body {
+    height: 5em;
+}
+
+#dashboard-card-body .card-title-name {
+    font-size: 27px;
+}
+
+#dashboard-card-body .card-text {
+    font-size: 15px;
+}
+
+#dashboard-card-body-status {
+    margin-right: 5rem;
+    height: 4em;
+}
+
+#dashboard-card-body-status .card-title-status {
+    margin-left: -50px;
+    font-size: 17px;
+}
+
+#dashboard-card-body-status .card-text-status {
+    margin-top: -10px;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+}
+
+#dashboard-table {
+    height: 10em;
+}
+
+.cards {
+    width: 60%;
+}
